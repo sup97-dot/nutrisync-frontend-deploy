@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Community</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="auth-handler.js"></script>
+  <script src="trending.js"></script>
+</head>
+<body>
+    <header class="top-container">
+        <a href="C:\Users\rjngi\Downloads\nutrisync-frontend\index.html">
+        <img class="logo" src="images/web-logo.png">
+        </a>
+
+        <nav>
+          <a href="C:\Users\rjngi\Downloads\nutrisync-frontend\contact.html" class="contact-link">Contact</a>
+          <a href="C:\Users\rjngi\Downloads\nutrisync-frontend\login.html">
+          <button class="logout-button">Log Out</button>
+          </a>
+        </nav>
+      </header>
+
+  <section class="comm-tabs">
+    <button class="comm-tab active">Trending</button>
+    <button class="comm-tab">Community</button>
+  </section>
+
+  <main class="comm-layout">
+    <!-- LEFT Sidebar -->
+    <aside class="comm-sidebar">
+      <div class="forum-box">
+        <h3>FORUM</h3>
+        <div class="enter-divider"></div>
+        <button class="enter-btn">ENTER</button>
+      </div>
+    </aside>
+
+    <!-- CENTER Activity Feed -->
+    <section class="feed">
+      <h2 class="feed-title">Activity Feed</h2>
+
+      <div class="new-post">
+        <div class="user-name">User Name</div>
+        <textarea placeholder="Write down anything you want to say or @ to tag someone"></textarea>
+      </div>
+
+      <h3 class="updates-heading">All Updates</h3>
+
+      <div class="post">
+        <div class="post-top">
+          <div class="post-icon">🧑</div>
+          <div class="post-content">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry...
+          </div>
+        </div>
+        <div class="post-actions">
+          <span>♡</span>
+          <span>💬</span>
+        </div>
+
+        <div class="comments">
+          <div class="comment">
+            <p><strong>User Name</strong></p>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+            <div class="comment-actions">
+              <span>Like</span>
+              <span>Reply</span>
+            </div>
+          </div>
+
+          <div class="comment">
+            <p><strong>User Name</strong></p>
+            <p>Lorem ipsum</p>
+            <div class="comment-actions">
+              <span>Like</span>
+              <span>Reply</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RIGHT Sidebar -->
+    <aside class="sidebar">
+      <div class="updates-box">
+        <h3>LATEST UPDATES</h3>
+        <ul class="updates-list">
+          <li>User posted an update yesterday</li>
+          <li>User posted an update a week ago</li>
+          <li>User liked a post from Other User</li>
+          <li>User updated their profile picture</li>
+        </ul>
+        <button class="load-button">LOAD MORE UPDATES</button>
+      </div>
+    </aside>
+  </main>
+</body>
+</html>

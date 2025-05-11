@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>User Dashboard</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="auth-handler.js"></script>
+</head>
+<body>
+    <header class="top-container">
+        <a href="C:\Users\rjngi\Downloads\nutrisync-frontend\index.html">
+        <img class="logo" src="images/web-logo.png">
+        </a>
+
+        <nav>
+          <a href="C:\Users\rjngi\Downloads\nutrisync-frontend\contact.html" class="contact-link">Contact</a>
+          <a href="C:\Users\rjngi\Downloads\nutrisync-frontend\login.html">
+          <button class="logout-button">Log Out</button>
+          </a>
+        </nav>
+      </header>
+
+  <main class="userdashboard-container">
+    <section class="user-input">
+      <h2>Welcome back, User!</h2>
+      <form id="generateMealPlanForm" action="userplan.html" method="get" class="user-form">
+        <input type="number" name="height" placeholder="Enter height:" required />
+        <input type="number" name="weight" placeholder="Enter weight:" required />
+        <input type="number" name="age" placeholder="Enter age:" required />
+        <input type="text" name="gender" placeholder="Enter gender:" required />
+        <input type="text" name="goal" placeholder="Enter health goal:" required />
+        <button type="submit" class="generatebutton2">Generate meal plan</button>
+      </form>
+    </section>
+
+    <section class="sidebar-options">
+      <div class="card">
+        <h3>User's Profile</h3>
+        <a href="C:\Users\rjngi\Downloads\nutrisync-frontend\profile_1.html">
+            <img class="dash-logo" src="images/account-circle.png">
+            <p>View your profile and track <br >your progress</p>
+        </a>
+      </div>
+      <div class="card">
+        <h3>Community</h3>
+        <a href="C:\Users\rjngi\Downloads\nutrisync-frontend\trending.html">
+            <img class="dash-logo" src="images/gmail-groups.png">
+            <p>Connect with other people <br> online</p>
+        </a>
+      </div>
+      <div class="card">
+        <h3>Starred Plans</h3>
+        <a href="C:\Users\rjngi\Downloads\nutrisync-frontend\starredplan.html">
+            <img class="dash-logo" src="images/star.png">
+            <p>View all your favorite meal <br> plans</p>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <script src="userdash.js"></script>
+</body>
+</html>

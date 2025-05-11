@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Starred Meal Plans</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="auth-handler.js"></script>
+</head>
+<body class="userbody">
+    <header class="top-container">
+        <a href="index.html">
+            <img class="logo" src="images/web-logo.png">
+        </a>
+
+        <nav>
+            <a href="contact.html" class="contact-link">Contact</a>
+            <a href="login.html">
+                <button class="logout-button">Log Out</button>
+            </a>
+        </nav>
+    </header>
+
+    <main class="meal-plan-container">
+        <h1 class="page-title">Your Starred Meal Plans</h1>
+        <div id="starred-plans-container">
+            <p class="loading-text">Loading your starred meals...</p>
+        </div>
+    </main>
+
+    <div class="navigation-buttons">
+        <button onclick="window.location='userdash.html'" class="back-button">Back to Dashboard</button>
+    </div>
+
+    <script src="starredplans.js"></script>
+</body>
+</html>

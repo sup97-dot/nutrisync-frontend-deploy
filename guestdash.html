@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Guest Dashboard</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="guestdash.js" defer></script>
+  <script src="auth-handler.js"></script>
+</head>
+<body>
+    <header class="top-container">
+        <a href="C:\Users\rjngi\Downloads\nutrisync-frontend\index.html">
+        <img class="logo" src="images/web-logo.png">
+        </a>
+
+        <nav>
+          <a href="C:\Users\rjngi\Downloads\nutrisync-frontend\contact.html" class="contact-link">Contact</a>
+          <a href="C:\Users\rjngi\Downloads\nutrisync-frontend\login.html">
+          <button class="login-button">Log In</button>
+          </a>
+        </nav>
+      </header>
+
+  <section class="guest-container">
+    <h2 class="guest-title">Generate a quick meal plan!</h2>
+    <form id="guestMealPlanForm" form class="guest-input">
+        <div class="guest-row">
+          <input type="number" name="height" placeholder="Enter height:" required />
+          <input type="number" name="weight" placeholder="Enter weight:" required />
+          <input type="number" name="age" placeholder="Enter age:" required />
+        </div>
+        <div class="guest-row">
+          <input type="text" name="gender" placeholder="Enter gender:" required />
+          <input type="text" name="goal" placeholder="Goal:" required />
+        </div>
+        <button type="submit" class="generatebutton">Generate meal plan</button>
+      </form>
+      
+</section>
+</body>
+</html>

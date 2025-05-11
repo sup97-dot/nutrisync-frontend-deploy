@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Recipe</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="recipe.js"></script>
+  <script src="auth-handler.js"></script>
+</head>
+<body>
+    <header class="top-container">
+        <a href="index.html">
+        <img class="logo" src="images/web-logo.png">
+        </a>
+
+        <nav>
+          <a href="contact.html" class="contact-link">Contact</a>
+          <button class="logout-button">Log Out</button>
+          </a>
+        </nav>
+      </header>
+  <main class="recipe-container">
+    <h2 class="recipe-title">Recipe Name</h2>
+
+    <div class="recipe-section">
+      <div class="recipe-box"></div>
+
+      <div class="nutrition-section">
+        <div class="nutrition-box">
+          <h3>Nutrition Info</h3>
+          <p>Calories: 1122</p>
+          <p>Fat: g</p>
+          <p>Carbs: g</p>
+          <p>Sugar: g</p>
+          <p>Fiber: g</p>
+          <p>Protein: g</p>
+        </div>
+        <div class="action-buttons">
+          <button class="circle-button" title="Star">&#9733;</button>
+          <button class="circle-button" title="Flag">&#9873;</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="info-section">
+      <div class="info-box">
+        <h3>RECIPE</h3>
+      </div>
+      <div class="info-box">
+        <h3>INGREDIENTS</h3>
+      </div>
+    </div>
+
+    <div class="review-section">
+      <p><strong>Enjoy the meal? Leave a quick review for future suggestions!</strong></p>
+      <textarea placeholder="Write any comments or concerns"></textarea>
+      <button class="submit-btn">Submit</button>
+    </div>
+  </main>
+</body>
+</html>
