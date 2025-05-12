@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const publicPages = [
         'index.html',
         'login.html',
-        'register.html',
+        'login.html',
         'guestplan.html',
         'guestdash.html',
         'contact.html'
