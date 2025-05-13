@@ -5,27 +5,12 @@
   "main": "index.html",
   "scripts": {
     "start": "serve -s .",
-    "build": "npm install && npm run build:css && npm run build:js",
-    "build:css": "postcss styles.css -o dist/styles.min.css",
-    "build:js": "babel src -d dist --minified",
-    "lint": "eslint src/**/*.js",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "build": "echo \"No build step necessary\""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "serve": "^14.2.0"
-  },
-  "devDependencies": {
-    "@babel/cli": "^7.27.2",
-    "@babel/core": "^7.27.1",
-    "@babel/preset-env": "^7.27.2",
-    "autoprefixer": "^10.4.21",
-    "eslint": "^9.26.0",
-    "gh-pages": "^6.3.0",
-    "postcss": "^8.5.3",
-    "postcss-cli": "^10.1.0"
   }
 }
